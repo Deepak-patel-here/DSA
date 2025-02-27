@@ -12,7 +12,4 @@ public class SymmetricTree {
 
         return isMirror(root.left,root.right);
     }
-    public static void main(String[] args) {
-
-    }
 }
