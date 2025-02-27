@@ -22,4 +22,28 @@ public class TrappingRainWater {
     public static void main(String[] args) {
 
     }
+//    @Composable
+//    fun Greeting(name: String, modifier: Modifier = Modifier) {
+//        Text(
+//                text = "Hello $name!",
+//                modifier = modifier
+//        )
+//    }
+//
+//    @Preview(showBackground = true)
+//    @Composable
+//    fun GreetingPreview() {
+//        MyApplicationTheme {
+//            Greeting("Android")
+//        }
+//    }
+
+//    MyApplicationTheme {
+//        Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+//                Greeting(
+//                        name = "Android",
+//                        modifier = Modifier.padding(innerPadding)
+//                )
+//        }
+//    }
 }

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class   {
+public class MaximumSumWithAtMostKElement{
     public long maxSum(int[][] grid, int[] limits, int k) {
         int n = grid.length;
         int m = grid[0].length;
@@ -24,7 +24,7 @@ public class   {
         return sum;
     }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
     }
 }

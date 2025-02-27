@@ -1,0 +1,25 @@
+package Hashing;
+
+import java.util.Scanner;
+
+public class characterHashing {
+
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.print("Enter the string :");
+        String str=sc.next();
+        int []hash=new int [26];
+        for(int i=0;i<str.length();i++) {
+            hash[str.charAt(i)-'a']+=1;
+        }
+        System.out.print("Enter the number of characters : ");
+        int q=sc.nextInt();
+        while(q>0){
+            char n=sc.next().charAt(0);
+            System.out.println(hash[n-'a']);
+            q--;
+        }
+
+
+    }
+}
